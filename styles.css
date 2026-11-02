@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Arab Dances";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/arab-dances.ttf") format("truetype");
+}
+
 :root {
   --green: #124b44;
   --white: #ffffff;
@@ -38,8 +46,11 @@ body {
 
 h1 {
   margin: 0;
+  font-family: "Arab Dances", Georgia, "Times New Roman", serif;
+  font-weight: 400;
   font-size: clamp(2rem, 5vw, 3.5rem);
   line-height: 1.1;
+  letter-spacing: 0.01em;
 }
 
 .subtitle {
@@ -99,4 +110,31 @@ h1 {
 
 .hero-copy p + p {
   margin-top: 1.25rem;
+}
+
+.site-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 2rem 1.5rem 3rem;
+  font-size: 0.88rem;
+}
+
+.footer-inner {
+  width: min(820px, 100%);
+  margin: 0 auto;
+}
+
+.footer-inner p {
+  margin: 0 0 0.75rem;
+  max-width: 48rem;
+  line-height: 1.6;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.footer-note {
+  margin-bottom: 0;
+}
+
+.site-footer a {
+  color: inherit;
 }
