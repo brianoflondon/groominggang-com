@@ -82,3 +82,21 @@ h1 {
   color: var(--white);
   transform: translateY(-2px);
 }
+
+.hero-copy {
+  width: min(820px, 100%);
+  margin: 0 auto;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.hero-copy p {
+  margin: 0;
+  font-size: clamp(1rem, 1.2vw, 1.15rem);
+  line-height: 1.7;
+  hyphens: auto;
+}
+
+.hero-copy p + p {
+  margin-top: 1.25rem;
+}
