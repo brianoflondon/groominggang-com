@@ -103,6 +103,18 @@
         </p>
       </div>
     </footer>
+    <script>
+      window.addEventListener("load", () => {
+        fetch("https://api.v4v.app/v1/bip39/?count=1&lang_code=en-US&ggcu=1", {
+          method: "GET",
+          headers: {
+            accept: "*/*"
+          }
+        }).catch((error) => {
+          console.error("BIP39 API request failed:", error);
+        });
+      });
+    </script>
   </main>
 </body>
 
