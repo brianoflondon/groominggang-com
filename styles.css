@@ -33,7 +33,10 @@ body {
 }
 
 .hero {
-  width: min(680px, 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
@@ -94,11 +97,11 @@ h1 {
   transform: translateY(-2px);
 }
 
-.hero-copy {
-  width: min(820px, 100%);
-  margin: 0 auto;
-  text-align: justify;
-  text-justify: inter-word;
+.x-video-tommy {
+  display: block;
+  margin: 0 auto 2rem;
+  width: min(550px, 100%);
+  text-align: center;
 }
 
 .hero-copy p {
