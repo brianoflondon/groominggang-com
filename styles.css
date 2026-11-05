@@ -60,8 +60,8 @@ h1 {
 
 .book-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(380px, 100%), 1fr));
+  gap: 2rem;
   align-items: center;
   justify-items: center;
   width: 100%;
@@ -70,7 +70,7 @@ h1 {
 
 .book-frame {
   width: 100%;
-  max-width: 340px;
+  max-width: 380px;
   aspect-ratio: 2 / 3;
   overflow: hidden;
   background: transparent;
@@ -80,9 +80,15 @@ h1 {
 .book-badge {
   display: block;
   width: 100%;
-  max-width: 340px;
+  max-width: 380px;
   height: auto;
   border: 0;
+}
+
+@media (min-width: 840px) {
+  .hero {
+    width: min(980px, 100%);
+  }
 }
 
 .book-frame img {
