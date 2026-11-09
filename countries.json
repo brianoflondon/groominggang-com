@@ -1,17 +1,26 @@
 [
   {
     "name": "UK",
+    "label": "Amazon UK",
     "flag": "🇬🇧",
     "url": "https://www.amazon.co.uk/dp/0995584982/"
   },
   {
     "name": "US",
+    "label": "Amazon US",
     "flag": "🇺🇸",
     "url": "https://www.amazon.com/gp/product/0995584990/"
   },
   {
     "name": "Aus",
+    "label": "Amazon Aus",
     "flag": "🇦🇺",
     "url": "https://www.amazon.com.au/Grooming-Gang-Cover-Up-Tommy-Robinson/dp/0995584990"
+  },
+  {
+    "name": "UK",
+    "label": "Urban Scoop",
+    "flag": "🇬🇧",
+    "url": "https://urbanscoop.news/shop"
   }
 ]
