@@ -1,19 +1,19 @@
 [
   {
     "name": "UK",
-    "label": "Amazon UK",
+    "label": "Amazon",
     "flag": "🇬🇧",
     "url": "https://www.amazon.co.uk/dp/0995584982/"
   },
   {
     "name": "US",
-    "label": "Amazon US",
+    "label": "Amazon",
     "flag": "🇺🇸",
     "url": "https://www.amazon.com/gp/product/0995584990/"
   },
   {
     "name": "Aus",
-    "label": "Amazon Aus",
+    "label": "Amazon",
     "flag": "🇦🇺",
     "url": "https://www.amazon.com.au/Grooming-Gang-Cover-Up-Tommy-Robinson/dp/0995584990"
   },
