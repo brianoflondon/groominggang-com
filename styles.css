@@ -105,11 +105,24 @@ h1 {
   gap: 0.75rem;
   width: min(100%, 640px);
   margin: 0 auto;
+  padding: 0.75rem 1rem;
+}
+
+/* Centre the lone third button on its row, but only while there are exactly 3 */
+.buy-buttons:has(> .buy-button:nth-child(3):last-child) > .buy-button:last-child {
+  grid-column: 1 / -1;
+  justify-self: center;
+  width: calc((100% - 0.75rem) / 2);
 }
 
 @media (max-width: 540px) {
   .buy-buttons {
     grid-template-columns: 1fr;
+  }
+
+  .buy-buttons > .buy-button:last-child {
+    grid-column: auto;
+    width: auto;
   }
 }
 
