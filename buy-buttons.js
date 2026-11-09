@@ -15,7 +15,7 @@
           a.href = store.url;
           a.target = "_blank";
           a.rel = "noopener noreferrer";
-          a.textContent = "Buy on Amazon " + store.name + " " + store.flag;
+          a.textContent = "Amazon " + store.name + " " + store.flag;
           return a;
         })
       );
