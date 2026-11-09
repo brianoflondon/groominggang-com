@@ -1,0 +1,11 @@
+{
+  "name": "The Grooming Gang Cover-Up",
+  "short_name": "Grooming Gang",
+  "icons": [
+    { "src": "/favicon/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/favicon/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#124B44",
+  "background_color": "#124B44",
+  "display": "standalone"
+}
